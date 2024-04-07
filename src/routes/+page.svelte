@@ -1,5 +1,5 @@
 <script>
-	import chantier from '$lib/images/en-chantier-1.png';
+	import chantier from '$lib/images/Affiche.png';
 </script>
 
 <svelte:head>
@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<h1> EL CEP </h1>
+	<h1>EL CEP</h1>
 	<span class="welcome">
 		<picture>
 			<source srcset={chantier} type="image/webp" />
@@ -18,6 +18,7 @@
 </section>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 	section {
 		display: flex;
@@ -27,25 +28,25 @@
 	}
 
 	h1 {
-		font-family :"Roboto";
+		font-family: 'Metal Mania';
 		font-size: 3.75rem;
 		line-height: 1;
 		font-weight: 700;
-		letter-spacing: -0.025em;
+		letter-spacing: 0.25em;
 	}
 	.welcome {
 		display: block;
 		position: relative;
 		width: 50%;
 		height: 0;
-		padding: 16px 0 calc(100% * 512 / 512) 0;
-		margin-top:  5rem;
+		padding: 8px 0 calc(100% * 1241 / 1754) 0;
+		margin-top: 1rem;
 	}
 
 	.welcome img {
 		position: absolute;
 		width: 100%;
-		height: 50%;
+		height: 100%;
 		top: 0;
 		display: block;
 	}
