@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>El Cep</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Svelte demo app"/>
 </svelte:head>
 
 <!-- Baniere-->
@@ -20,33 +20,33 @@
 </section>
 
 <!-- Programtation-->
-<section class="bg-slate-200 flex flex-col lg:flex-row items-center lg:items-stretch p-12">
-	<div class="w-1/2 flex flex-col items-center mr-4">
+<section class="bg-slate-200 flex flex-col lg:flex-row items-center lg:items-stretch p-8">
+	<div class="w-1/2 flex flex-col items-center mb-8">
 		<h1 class="text-5xl font-rock">Vendredi</h1>
 		<br />
-		<div class="flex m-auto">
-			<div class="mr-16">
+		<div class="flex mt-auto mb-auto">
+			<div class="mr-6">
 				<Avatar {AvatarImg} Name="The odd berries"></Avatar>
 			</div>
-			<div class="ml-16">
+			<div class="ml-6">
 				<Avatar {AvatarImg} Name="Boneskaker"></Avatar>
 			</div>
 		</div>
 	</div>
-	<div class="w-1/2 flex flex-col items-center ml-4">
+	<div class="w-1/2 flex flex-col items-center">
 		<h1 class="text-5xl font-rock">Samedi</h1>
 		<br />
-		<div class="flex justify-between">
-			<div class="flex flex-col justify-between mr-12">
-				<Avatar {AvatarImg} Name="Nobody’s fault" Style=""></Avatar>
-				<Avatar {AvatarImg} Name="Ady one women band" Style=""></Avatar>
+		<div class="flex flex-row justify-between items-center">
+			<div class="flex flex-col justify-between mr-6">
+				<Avatar {AvatarImg} Name="Nobody’s fault"></Avatar>
+				<Avatar {AvatarImg} Name="Ady one women band"></Avatar>
 			</div>
-			<div class="flex flex-col justify-center mr-6 ml-6">
-				<Avatar {AvatarImg} Name="BB michels" Style=""></Avatar>
+			<div class="flex flex-col justify-center m-6">
+				<Avatar {AvatarImg} Name="BB michels"></Avatar>
 			</div>
-			<div class="flex flex-col justify-between ml-12">
-				<Avatar {AvatarImg} Name="Johnny Montreuil" Style=""></Avatar>
-				<Avatar {AvatarImg} Name="DJ ordoeuvre" Style=""></Avatar>
+			<div class="flex flex-col justify-between ml-6">
+				<Avatar {AvatarImg} Name="Johnny Montreuil"></Avatar>
+				<Avatar {AvatarImg} Name="DJ ordoeuvre"></Avatar>
 			</div>
 		</div>
 	</div>
