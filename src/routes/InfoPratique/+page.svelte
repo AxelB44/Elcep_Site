@@ -13,7 +13,7 @@
 	<Tabs.Root value="Localisation" class="w-5/6 flex flex-col m-4">
 		<Tabs.List class="mb-4">
 			<Tabs.Trigger value="Localisation" class="font-rock text-3xl">Localisation</Tabs.Trigger>
-			<Tabs.Trigger value="Restoration" class="font-rock text-3xl">Restoration</Tabs.Trigger>
+			<Tabs.Trigger value="Restauration" class="font-rock text-3xl">Restauration</Tabs.Trigger>
 			<Tabs.Trigger value="Campings" class="font-rock text-3xl">Campings</Tabs.Trigger>
 		</Tabs.List>
 		<Tabs.Content value="Localisation">
@@ -47,7 +47,7 @@
 			<br />
 		</Tabs.Content>
 
-		<Tabs.Content value="Restoration">
+		<Tabs.Content value="Restauration">
 			<Groupe Img={ImgGroupe}>
 				<h1 slot="name" class="font-rock text-2xl m-2">Nobody’s fault</h1>
 				<p slot="description" class="text-justify m-2">
@@ -120,7 +120,7 @@
 			<br />
 		</Tabs.Content>
 
-        <Tabs.Content value="Campings">
+		<Tabs.Content value="Campings">
 			<Groupe Img={ImgGroupe}>
 				<h1 slot="name" class="font-rock text-2xl m-2">BB michels</h1>
 				<p slot="description" class="text-justify m-2">

@@ -7,9 +7,9 @@
 	export let reseaus = [];
 </script>
 
-<div class="flex justify-center bg-gray-100 rounded-md p-4">
+<div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4">
 	<img src={Img} alt="" class="w-2/5" />
-	<div lass="w-3/5">
+	<div class="w-3/5">
 		<slot name="name" />
 		<slot name="style" />
 		<ul>
