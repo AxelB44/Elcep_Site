@@ -12,9 +12,9 @@
 	<img src={Img} alt="" class="md:w-2/5 {order}" />
 	<div class="md:w-3/5">
 		<slot name="name" />
-		<ul class="flex text-4xl ml-4">
+		<ul class="flex text-4xl ml-4 text-neutral-700">
 			{#each Reseaux as reseau}
-				<li class="mr-8">
+				<li class="mr-8 hover:text-red-500">
 					<a href={reseau.Link} target="_blank">
 						<Icon icon={reseau.Icon} />
 					</a>

@@ -8,7 +8,7 @@
 	let AvatarImg =
 		'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Wayfarers&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=Blonde&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Pale';
 
-	const plugin = Autoplay({ delay: 6000, stopOnInteraction: true });
+	const plugin = Autoplay({ delay: 4000, stopOnInteraction: true });
 </script>
 
 <svelte:head>
@@ -22,7 +22,7 @@
 </section>
 
 <!-- Programtation-->
-<section class="bg-slate-200 flex flex-col lg:flex-row items-center lg:items-stretch p-8">
+<section class="bg-gray-100 flex flex-col lg:flex-row items-center lg:items-stretch p-8">
 	<div class="w-1/2 flex flex-col items-center mb-8">
 		<h1 class="text-5xl font-rock">Vendredi</h1>
 		<br />

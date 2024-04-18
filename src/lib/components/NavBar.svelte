@@ -24,9 +24,9 @@
 	}
 </script>
 
-<header class="bg-gray-800 z-50 fixed top-0 w-full">
+<header class="bg-neutral-900 z-50 fixed top-0 w-full">
 	<nav
-		class="bg-gray-800 text-white max-w-screen-2xl mx-auto font-poppins p-6 flex items-center justify-between"
+		class="bg-neutral-900 text-white max-w-screen-2xl mx-auto font-poppins p-6 flex items-center justify-between"
 	>
 		<a href="/"><img class="max-h-16" src={Logo} alt="" /></a>
 		<button
@@ -40,7 +40,7 @@
 		</button>
 		<ui
 			id="toggles-menu"
-			class="w-full absolute top-full left-0 {togglesmenu} -z-10 text-white bg-gray-800 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+			class="w-full absolute top-full left-0 {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
 		>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
 				<a href="/" class="font-rock text-2xl">Accueil</a>
@@ -55,7 +55,7 @@
 				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap">Info Pratique</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/Archives" class="font-rock text-2xl">Archive</a>
+				<a href="/Archives" class="font-rock text-2xl">Archives</a>
 			</li>
 		</ui>
 	</nav>
