@@ -31,7 +31,7 @@
 				</p>
 			</Groupe>
 			<br />
-			<Groupe Img={ImgGroupe}>
+			<Groupe Img={ImgGroupe} order="order-2">
 				<h1 slot="name" class="font-rock text-2xl m-2">Boneskaker</h1>
 				<p slot="description" class="text-justify m-2">
 					Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
@@ -62,7 +62,7 @@
 				</p>
 			</Groupe>
 			<br />
-			<Groupe Img={ImgGroupe}>
+			<Groupe Img={ImgGroupe} order="order-2">
 				<h1 slot="name" class="font-rock text-2xl m-2">Ady one women band</h1>
 				<p slot="description" class="text-justify m-2">
 					Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
@@ -90,7 +90,7 @@
 				</p>
 			</Groupe>
 			<br />
-			<Groupe Img={ImgGroupe}>
+			<Groupe Img={ImgGroupe} order="order-2">
 				<h1 slot="name" class="font-rock text-2xl m-2">Johnny Montreuil</h1>
 				<p slot="description" class="text-justify m-2">
 					Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
@@ -135,7 +135,7 @@
 				</p>
 			</Groupe>
 			<br />
-			<Groupe Img={ImgGroupe}>
+			<Groupe Img={ImgGroupe} order="order-2">
 				<h1 slot="name" class="font-rock text-2xl m-2">Johnny Montreuil</h1>
 				<p slot="description" class="text-justify m-2">
 					Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page

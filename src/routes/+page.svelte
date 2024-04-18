@@ -2,16 +2,18 @@
 	import Avatar from '$lib/components/Avatar.svelte';
 	import Partenaire from '$lib/components/Partenaire.svelte';
 	import * as Carousel from '$lib/components/ui/carousel/';
-
+	import Autoplay from 'embla-carousel-autoplay';
 	import BaniereAccueil from '../lib/assets/BanniereAccueil.jpg';
 
 	let AvatarImg =
 		'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Wayfarers&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=Blonde&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Pale';
+
+	const plugin = Autoplay({ delay: 6000, stopOnInteraction: true });
 </script>
 
 <svelte:head>
 	<title>El Cep</title>
-	<meta name="description" content="Svelte demo app"/>
+	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <!-- Baniere-->
@@ -55,8 +57,11 @@
 <!-- Parteneria-->
 <section class="flex flex-col items-center w-full p-12">
 	<h1 class="text-5xl font-rock mb-8">Partenaires</h1>
-	<Carousel.Root opts={{ align: 'start', loop: true }} class="w-5/6">
+	<Carousel.Root opts={{ align: 'start', loop: true }} plugins={[plugin]} class="w-5/6">
 		<Carousel.Content class="-ml-1">
+			<Carousel.Item class="pl-1 md:basis-1/3 lg:basis-1/6">
+				<Partenaire PartenaireImg={AvatarImg} Name="Credit Mutuel"></Partenaire>
+			</Carousel.Item>
 			<Carousel.Item class="pl-1 md:basis-1/3 lg:basis-1/6">
 				<Partenaire PartenaireImg={AvatarImg} Name="Credit Mutuel"></Partenaire>
 			</Carousel.Item>
@@ -84,5 +89,3 @@
 	</Carousel.Root>
 </section>
 
-<style>
-</style>

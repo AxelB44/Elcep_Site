@@ -4,17 +4,21 @@
 	import Icon from '@iconify/svelte';
 
 	export let Img = '';
-	export let reseaus = [];
+	export let Reseaux = [];
+	export let order = 'order-none';
 </script>
 
 <div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4">
-	<img src={Img} alt="" class="w-2/5" />
-	<div class="w-3/5">
+	<img src={Img} alt="" class="md:w-2/5 {order}" />
+	<div class="md:w-3/5">
 		<slot name="name" />
-		<slot name="style" />
-		<ul>
-			{#each reseaus as reseau}
-				<li><slot name="reseau" {reseau} /></li>
+		<ul class="flex text-4xl ml-4">
+			{#each Reseaux as reseau}
+				<li class="mr-8">
+					<a href={reseau.Link} target="_blank">
+						<Icon icon={reseau.Icon} />
+					</a>
+				</li>
 			{/each}
 		</ul>
 		<slot name="description" />
