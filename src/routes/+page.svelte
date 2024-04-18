@@ -36,7 +36,7 @@
 		</div>
 	</div>
 	<div class="w-1/2 flex flex-col items-center">
-		<h1 class="text-5xl font-rock">Samedi 06/09</h1>
+		<h1 class="text-5xl font-rock">Samedi 07/09</h1>
 		<br />
 		<div class="flex flex-row justify-between items-center">
 			<div class="flex flex-col justify-between mr-6">
