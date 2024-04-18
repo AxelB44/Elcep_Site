@@ -58,10 +58,16 @@
 		"Date": "Samedi",
 		"Image": "",
 		"Reseaux": [
+			{ "Name": "Site", "Icon": "mdi:web", "Link": "https://ady-music.com/" },
 			{
 				"Name": "Facebook",
 				"Icon": "mdi:facebook",
 				"Link": "https://www.facebook.com/adyonewomanband/"
+			},
+			{
+				"Name": "Instagram",
+				"Icon": "mdi:instagram",
+				"Link": "https://www.instagram.com/adyonewomanband"
 			},
 			{
 				"Name": "Youtube",
