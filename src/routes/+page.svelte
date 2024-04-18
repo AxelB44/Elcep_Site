@@ -24,7 +24,7 @@
 <!-- Programtation-->
 <section class="bg-gray-100 flex flex-col lg:flex-row items-center lg:items-stretch p-8">
 	<div class="w-1/2 flex flex-col items-center mb-8">
-		<h1 class="text-5xl font-rock">Vendredi</h1>
+		<h1 class="text-5xl font-rock">Vendredi 06/09</h1>
 		<br />
 		<div class="flex mt-auto mb-auto">
 			<div class="mr-6">
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 	<div class="w-1/2 flex flex-col items-center">
-		<h1 class="text-5xl font-rock">Samedi</h1>
+		<h1 class="text-5xl font-rock">Samedi 06/09</h1>
 		<br />
 		<div class="flex flex-row justify-between items-center">
 			<div class="flex flex-col justify-between mr-6">
