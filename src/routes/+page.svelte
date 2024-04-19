@@ -31,10 +31,10 @@
 		<br />
 		<div class="flex mt-auto mb-auto">
 			<div class="mr-6">
-				<Avatar {AvatarImg} Name="The odd berries"></Avatar>
+				<Avatar AvatarImg='../Artiste/OddBerris/ODD BERRIES Avatar.jpg' Name="The odd berries"></Avatar>
 			</div>
 			<div class="ml-6">
-				<Avatar {AvatarImg} Name="Boneskaker"></Avatar>
+				<Avatar AvatarImg='../Artiste/BoneShaker/avatar_boneshaker.jpg' Name="Boneskaker"></Avatar>
 			</div>
 		</div>
 	</div>
@@ -43,15 +43,15 @@
 		<br />
 		<div class="flex flex-row justify-between items-center">
 			<div class="flex flex-col justify-between mr-6">
-				<Avatar {AvatarImg} Name="Nobody’s fault"></Avatar>
-				<Avatar {AvatarImg} Name="Ady one women band"></Avatar>
+				<Avatar AvatarImg='../Artiste/NobodysFault/avatar_nobody.jpg' Name="Nobody’s fault"></Avatar>
+				<Avatar AvatarImg='../Artiste/AdyOneWomenband/adyowbAvatar.jpg' Name="Ady one women band"></Avatar>
 			</div>
 			<div class="flex flex-col justify-center m-6">
-				<Avatar {AvatarImg} Name="BB michels"></Avatar>
+				<Avatar AvatarImg='../Artiste/BBMichels/' Name="BB michels"></Avatar>
 			</div>
 			<div class="flex flex-col justify-between ml-6">
-				<Avatar {AvatarImg} Name="Johnny Montreuil"></Avatar>
-				<Avatar {AvatarImg} Name="DJ ordoeuvre"></Avatar>
+				<Avatar AvatarImg='../Artiste/JohnnyMontreuil/avatar_jm2.png' Name="Johnny Montreuil"></Avatar>
+				<Avatar AvatarImg='../Artiste/DJOrdoeuvre/avatar_djordoeuvre2.jpg' Name="DJ ordoeuvre"></Avatar>
 			</div>
 		</div>
 	</div>
