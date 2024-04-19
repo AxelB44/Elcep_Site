@@ -21,7 +21,7 @@
 		</Tabs.List>
 		<Tabs.Content value="Vendredi">
 			{#each Artistes.filter((e) => e.Date == 'Vendredi') as Artiste}
-				<Groupe Img={ImgGroupe} Reseaux={Artiste.Reseaux}>
+				<Groupe Img={Artiste.Image} Reseaux={Artiste.Reseaux}>
 					<h1 slot="name" class="font-rock text-2xl m-2">{Artiste.Name}</h1>
 					<p slot="description" class="text-justify m-2">{Artiste.Description}</p>
 				</Groupe>
@@ -31,7 +31,7 @@
 
 		<Tabs.Content value="Samedi">
 			{#each Artistes.filter((e) => e.Date == 'Samedi') as Artiste}
-				<Groupe Img={ImgGroupe} Reseaux={Artiste.Reseaux}>
+				<Groupe Img={Artiste.Image} Reseaux={Artiste.Reseaux}>
 					<h1 slot="name" class="font-rock text-2xl m-2">{Artiste.Name}</h1>
 					<p slot="description" class="text-justify m-2">{Artiste.Description}</p>
 				</Groupe>

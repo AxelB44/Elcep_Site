@@ -8,8 +8,8 @@
 	export let order = 'order-none';
 </script>
 
-<div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4">
-	<img src={Img} alt="" class="md:w-2/5 {order}" />
+<div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+	<img src={'../Artiste/' + Img} alt="" class="md:w-2/5 {order}" />
 	<div class="md:w-3/5">
 		<slot name="name" />
 		<ul class="flex text-4xl ml-4 text-neutral-700">
