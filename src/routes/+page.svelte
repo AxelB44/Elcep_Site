@@ -21,7 +21,7 @@
 
 <!-- Baniere-->
 <section class="">
-	<!--<img src={BaniereAccueil} alt="" class="w-full object-right-top object-cover lg:object-fill" />-->
+	<img src={BaniereAccueil} alt="" class="w-full object-right-top object-cover lg:object-fill" />
 </section>
 
 <!-- Programtation-->
