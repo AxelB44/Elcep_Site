@@ -12,5 +12,5 @@
 	<img class="size-60" src={defaultImg} alt="Logo de {Name}" />
 	{/if}
 	
-	<h2 class="m-2 font-rock text-2xl">{Name}</h2>
+	<h2 class="m-2 font-rock text-2xl text-center">{Name}</h2>
 </div>
