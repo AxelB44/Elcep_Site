@@ -31,7 +31,7 @@
 		<br />
 		<div class="flex mt-auto mb-auto">
 			<div class="mr-6">
-				<Avatar AvatarImg='../Artiste/OddBerris/ODD BERRIES Avatar.jpg' Name="The odd berries"></Avatar>
+				<Avatar AvatarImg='../Artiste/OddBerris/ODDBERRIESAvatar.jpg' Name="The odd berries"></Avatar>
 			</div>
 			<div class="ml-6">
 				<Avatar AvatarImg='../Artiste/BoneShaker/avatar_boneshaker.jpg' Name="Boneskaker"></Avatar>
