@@ -47,7 +47,7 @@
 				<Avatar AvatarImg='../Artiste/AdyOneWomenband/adyowbAvatar.jpg' Name="Ady one women band"></Avatar>
 			</div>
 			<div class="flex flex-col justify-center m-6">
-				<Avatar AvatarImg={AvatarImg} Name="BB michels"></Avatar>
+				<Avatar AvatarImg='../Artiste/BBMichels/BBMichelsAvatars.jpg' Name="BB michels"></Avatar>
 			</div>
 			<div class="flex flex-col justify-between ml-6">
 				<Avatar AvatarImg='../Artiste/JohnnyMontreuil/avatar_jm2.png' Name="Johnny Montreuil"></Avatar>
