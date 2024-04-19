@@ -53,7 +53,7 @@
 				<a href="/Billetterie" class="font-rock text-2xl" on:click={() => togglesNav()}>Billeterie</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Info Pratique</a>
+				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Info Pratiques</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>

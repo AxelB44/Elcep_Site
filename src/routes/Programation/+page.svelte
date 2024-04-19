@@ -16,8 +16,8 @@
 <section class="flex justify-center items-center">
 	<Tabs.Root value="Vendredi" class="w-5/6 flex flex-col m-4">
 		<Tabs.List class="mb-4">
-			<Tabs.Trigger value="Vendredi" class="font-rock text-3xl">Vendredi</Tabs.Trigger>
-			<Tabs.Trigger value="Samedi" class="font-rock text-3xl">Samedi</Tabs.Trigger>
+			<Tabs.Trigger value="Vendredi" class="font-rock text-3xl">Vendredi 6 Sept</Tabs.Trigger>
+			<Tabs.Trigger value="Samedi" class="font-rock text-3xl">Samedi 7 Sept</Tabs.Trigger>
 		</Tabs.List>
 		<Tabs.Content value="Vendredi">
 			{#each Artistes.filter((e) => e.Date == 'Vendredi') as Artiste}

@@ -21,7 +21,7 @@
 
 <!-- Baniere-->
 <section class="">
-	<img src={BaniereAccueil} alt="" class="w-full object-right-top object-cover lg:object-fill" />
+	<img src={BaniereAccueil} alt="" class="w-full object-bottom object-none max-h-72 md:max-h-full md:object-fill" />
 </section>
 
 <!-- Programtation-->
