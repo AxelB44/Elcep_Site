@@ -1,7 +1,7 @@
 <script>
 	import Logo from '../assets/ELCEP_logo_festival.png';
 	import Icon from '@iconify/svelte';
-
+	import Vache from '$lib/assets/illus_vache_rock.png'
 	let togglesmenu = '-translate-y-full';
 	let icon = 'ci:hamburger-lg';
 	let MenuBtn = false;
@@ -28,7 +28,8 @@
 	<nav
 		class="bg-neutral-900 text-white max-w-screen-2xl mx-auto font-poppins p-6 flex items-center justify-between"
 	>
-		<a href="/"><img class="max-h-16" src={Logo} alt="" /></a>
+
+		<a href="/" class="flex gap-3"><img class="max-h-16" src={Vache} alt="" /><img class="max-h-16" src={Logo} alt="" /></a>
 		<button
 			aria-label="toggle button"
 			aria-expanded={MenuBtn}
@@ -40,22 +41,22 @@
 		</button>
 		<ui
 			id="toggles-menu"
-			class="w-full absolute top-full left-0 {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+			class="w-full absolute top-full left-0 md:translate-y-full {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
 		>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/" class="font-rock text-2xl">Accueil</a>
+				<a href="/" class="font-rock text-2xl" on:click={() => togglesNav()}>Accueil</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/Programation" class="font-rock text-2xl">Programmation</a>
+				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}>Programmation</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/Billetterie" class="font-rock text-2xl">Billeterie</a>
+				<a href="/Billetterie" class="font-rock text-2xl" on:click={() => togglesNav()}>Billeterie</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap">Info Pratique</a>
+				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Info Pratique</a>
 			</li>
 			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
-				<a href="/Archives" class="font-rock text-2xl">Archives</a>
+				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
 			</li>
 		</ui>
 	</nav>
