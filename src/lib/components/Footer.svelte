@@ -18,7 +18,7 @@
 			</li>
 		</ui>
 	</div>
-	<h3 class="text-white">Contact : <a href="mailto:">[email]</a></h3>
+	<h3 class="text-white">Contact : <a href="mailto:communication.elcep@gmail.com" class="hover:text-red-500">communication.elcep@gmail.com</a></h3>
 </footer>
 
 <style>
