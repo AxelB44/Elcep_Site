@@ -9,21 +9,23 @@
 
 <section class="flex flex-col p-12">
 	<h1 class="text-center text-5xl font-rock mb-8">Billetterie</h1>
-	<div class="flex md:flex-row flex-col justify-around items-center">
+	<div class="flex md:flex-row flex-col justify-center gap-16">
 		<div class="flex flex-col border rounded-xl w-4/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-4">
 			<h1 class="text-center font-rock text-4xl mt-2">Vendredi</h1>
 			<br />
-			<ul class="h-72">
+			<br />
+			<ul class="">
 				<li class="flex justify-between text-2xl">
 					<h3>Tarif unique</h3>
 					<h3>5 €</h3>
 				</li>
 			</ul>
+			<button class="bg-neutral-900 hover:bg-red-600 rounded-full mt-auto ml-auto mr-auto p-4 font-rock text-3xl text-center text- text-white tracking-wider">Acheter</button>
 		</div>
 		<div class="flex flex-col border rounded-xl w-4/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-4">
 			<h1 class="text-center font-rock text-4xl mt-2">Samedi</h1>
 			<br />
-			<ul class="h-72">
+			<ul class="h-full">
 				<li class="flex justify-between text-2xl">
 					<h3>Plein Tarif</h3>
 					<h3>20 €</h3>
@@ -40,17 +42,21 @@
 					<h3>Gratuit</h3>
 				</li>
 			</ul>
+			
+			<button class="bg-neutral-900 hover:bg-red-600 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider">Acheter</button>
 		</div>
 	</div>
 	<br>
-	<div class="flex flex-col border rounded-xl w-4/6 lg:w-5/6 bg-gray-100 border-gray-100 p-4 m-auto">
+	<div class="flex flex-col border rounded-xl w-4/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-auto">
 			<h1 class="text-center font-rock text-4xl mt-2">Pass 2 jours</h1>
 			<br />
-			<ul class="h-72">
+			<br />
+			<ul class="h-32">
 				<li class="flex justify-between text-2xl">
 					<h3>Tarif unique</h3>
 					<h3>20 €</h3>
 				</li>
 			</ul>
+			<button class="bg-neutral-900 hover:bg-red-600 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider">Acheter</button>
 		</div>
 </section>

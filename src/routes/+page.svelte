@@ -63,7 +63,7 @@
 	<Carousel.Root opts={{ align: 'start', loop: true }} plugins={[plugin]} class="w-5/6">
 		<Carousel.Content class="-ml-1">
 			{#each lPartenaires as oPartenaire}
-				<Carousel.Item class="pl-1 md:basis-1/3 lg:basis-1/6">
+				<Carousel.Item class="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/6">
 				<Partenaire PartenaireImg={oPartenaire.Image}  Name={oPartenaire.Name}></Partenaire>
 			</Carousel.Item>
 			{/each}
