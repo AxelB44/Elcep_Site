@@ -1,5 +1,5 @@
 <script>
-	import Baniere from '../../lib/assets/BanniereAccueil.jpg';
+	import Baniere from '../../lib/assets/Banniere.jpg';
 </script>
 
 <!-- Baniere-->

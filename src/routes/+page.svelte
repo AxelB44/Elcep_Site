@@ -4,7 +4,7 @@
 	import * as Carousel from '$lib/components/ui/carousel/';
 	import Autoplay from 'embla-carousel-autoplay';
 	
-	import BaniereAccueil from '../lib/assets/BanniereAccueil.jpg';
+	import BaniereAccueil from '../lib/assets/BanniereAccueil.png';
 	import lPartenaires from '$lib/Partenaire.json'
 
 	let AvatarImg =
@@ -41,15 +41,15 @@
 	<div class="w-1/2 flex flex-col items-center">
 		<h1 class="text-5xl font-rock text-nowrap">Samedi 07/09</h1>
 		<br />
-		<div class="flex flex-row justify-between items-center">
-			<div class="flex flex-col justify-between mr-6">
+		<div class="flex flex-row justify-between items-center  lg:gap-16">
+			<div class="flex flex-col justify-between">
 				<Avatar AvatarImg='../Artiste/NobodysFault/avatar_nobody.jpg' Name="Nobody’s fault"></Avatar>
 				<Avatar AvatarImg='../Artiste/AdyOneWomenband/adyowbAvatar.jpg' Name="Ady one women band"></Avatar>
 			</div>
-			<div class="flex flex-col justify-center m-6">
+			<div class="flex flex-col justify-center">
 				<Avatar AvatarImg='../Artiste/BBMichels/BBMichelsAvatars.jpg' Name="BB michels"></Avatar>
 			</div>
-			<div class="flex flex-col justify-between ml-6">
+			<div class="flex flex-col justify-between">
 				<Avatar AvatarImg='../Artiste/JohnnyMontreuil/avatar_jm2.png' Name="Johnny Montreuil"></Avatar>
 				<Avatar AvatarImg='../Artiste/DJOrdoeuvre/avatar_djordoeuvre2.jpg' Name="DJ ordoeuvre"></Avatar>
 			</div>

@@ -1,6 +1,6 @@
 <script>
 	import * as Tabs from '$lib/components/ui/tabs';
-	import BaniereAccueil from '../../lib/assets/BanniereAccueil.jpg';
+	import BaniereAccueil from '../../lib/assets/Banniere.jpg';
 	import Groupe from '../../lib/components/Groupe.svelte';
 	import ImgGroupe from '../../lib/assets/ELCEP_logo_festival.png';
 	import Icon from '@iconify/svelte';
