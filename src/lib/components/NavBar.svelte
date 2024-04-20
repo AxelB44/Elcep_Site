@@ -34,28 +34,28 @@
 			aria-label="toggle button"
 			aria-expanded={MenuBtn}
 			id="menu-btn"
-			class="cursor-pointer w-7 md:hidden"
+			class="cursor-pointer w-7 lg:hidden"
 			on:click={togglesNav}
 		>
 			<Icon {icon} class="text-4xl" />
 		</button>
 		<ui
 			id="toggles-menu"
-			class="w-full absolute top-full left-0 md:translate-y-full {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+			class="w-full absolute top-full left-0 lg:translate-y-full {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center lg:static lg:z-10 lg:w-min lg:transform-none lg:border-none lg:flex-row"
 		>
-			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/" class="font-rock text-2xl" on:click={() => togglesNav()}>Accueil</a>
 			</li>
-			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}>Programmation</a>
 			</li>
-			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Billetterie" class="font-rock text-2xl" on:click={() => togglesNav()}>Billetterie</a>
 			</li>
-			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Infos Pratiques</a>
 			</li>
-			<li class="py-4 md:py-0 md:mr-6 hover:text-red-500">
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
 			</li>
 		</ui>
