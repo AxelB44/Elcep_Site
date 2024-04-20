@@ -14,6 +14,9 @@ const config = {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				Bandeau: "url('/bandeau_rouge.png')"
+			},
 			colors: {
 				border: 'hsl(var(--border) / <alpha-value>)',
 				input: 'hsl(var(--input) / <alpha-value>)',

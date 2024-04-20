@@ -1,5 +1,5 @@
 <script>
-	import Baniere from '../../lib/assets/Banniere.jpg';
+	import Banniere from '../../lib/assets/Banniere.jpg';
 
 	import * as Tabs from '$lib/components/ui/tabs';
 	import Groupe from '../../lib/components/Groupe.svelte';
@@ -7,7 +7,7 @@
 </script>
 
 <section class="">
-	<img src={Baniere} alt="" class="w-full" />
+	<img src={Banniere} alt="" class="w-full" />
 </section>
 
 <section class="flex justify-center items-center">

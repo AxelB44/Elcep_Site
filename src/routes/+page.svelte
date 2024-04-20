@@ -4,7 +4,7 @@
 	import * as Carousel from '$lib/components/ui/carousel/';
 	import Autoplay from 'embla-carousel-autoplay';
 	
-	import BaniereAccueil from '../lib/assets/BanniereAccueil.png';
+	import BanniereAccueil from '../lib/assets/BanniereAccueil.png';
 	import lPartenaires from '$lib/Partenaire.json'
 
 	let AvatarImg =
@@ -21,7 +21,7 @@
 
 <!-- Baniere-->
 <section class="">
-	<img src={BaniereAccueil} alt="" class="w-full" />
+	<img src={BanniereAccueil} alt="" class="w-full" />
 </section>
 
 <!-- Programtation-->
