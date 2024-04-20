@@ -17,7 +17,7 @@
 			<ul class="">
 				<li class="flex justify-between text-2xl">
 					<h3>Tarif unique</h3>
-					<h3>5 €</h3>
+					<h3><strong>5 €</strong></h3>
 				</li>
 			</ul>
 			<button class="bg-neutral-900 hover:bg-red-600 rounded-full mt-auto ml-auto mr-auto p-4 font-rock text-3xl text-center text- text-white tracking-wider">Acheter</button>
@@ -28,18 +28,18 @@
 			<ul class="h-full">
 				<li class="flex justify-between text-2xl">
 					<h3>Plein Tarif</h3>
-					<h3>20 €</h3>
+					<h3><strong>20 €</strong></h3>
 				</li>
 				<li class="flex justify-between text-2xl">
 					<div>
 						<h3>Tarif Réduit</h3>
 						<h4>(étudiant et demandeur d'emploi)</h4>
 					</div>
-					<h3>17 €</h3>
+					<h3><strong>17 €</strong></h3>
 				</li>
 				<li class="flex justify-between text-2xl">
 					<h3>Tarif - 12 ans</h3>
-					<h3>Gratuit</h3>
+					<h3><strong>Gratuit</strong></h3>
 				</li>
 			</ul>
 			
@@ -54,7 +54,7 @@
 			<ul class="h-32">
 				<li class="flex justify-between text-2xl">
 					<h3>Tarif unique</h3>
-					<h3>20 €</h3>
+					<h3><strong>20 €</strong></h3>
 				</li>
 			</ul>
 			<button class="bg-neutral-900 hover:bg-red-600 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider">Acheter</button>
