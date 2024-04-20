@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<footer class="flex justify-center bg-neutral-900 items-center p-2">
+<footer class="flex flex-col justify-center bg-neutral-900 items-center p-2">
 	<div class="flex">
 		<ui class="flex list-none text-white">
 			<li class="m-4 hover:text-red-500">
@@ -18,6 +18,7 @@
 			</li>
 		</ui>
 	</div>
+	<h3 class="text-white">Contact : <a href="mailto:">[email]</a></h3>
 </footer>
 
 <style>
