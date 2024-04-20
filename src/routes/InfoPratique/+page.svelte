@@ -13,9 +13,9 @@
 <section class="flex justify-center items-center">
 	<Tabs.Root value="Localisation" class="w-5/6 flex flex-col m-4">
 		<Tabs.List class="mb-4">
-			<Tabs.Trigger value="Localisation" class="font-rock text-3xl">Localisation</Tabs.Trigger>
-			<Tabs.Trigger value="Restauration" class="font-rock text-3xl">Restauration</Tabs.Trigger>
-			<Tabs.Trigger value="Campings" class="font-rock text-3xl">Camping</Tabs.Trigger>
+			<Tabs.Trigger value="Localisation" class="font-rock text-xl md:text-3xl">Localisation</Tabs.Trigger>
+			<Tabs.Trigger value="Restauration" class="font-rock text-xl md:text-3xl">Restauration</Tabs.Trigger>
+			<Tabs.Trigger value="Campings" class="font-rock text-xl md:text-3xl">Camping</Tabs.Trigger>
 		</Tabs.List>
 		<Tabs.Content value="Localisation">
 			<div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
