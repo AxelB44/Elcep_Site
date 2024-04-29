@@ -11,12 +11,23 @@
 </section>
 
 <section class="flex justify-center items-center">
-	<Tabs.Root value="Localisation" class="w-5/6 flex flex-col m-4">
-		<Tabs.List class="mb-4">
+	<Tabs.Root value="Localisation" class="w-11/12 md:w-5/6 flex flex-col m-4">
+		<Tabs.List class="mb-4" >
+			<Tabs.Trigger value="Horaire" class="font-rock text-xl md:text-3xl">Horaire</Tabs.Trigger>
 			<Tabs.Trigger value="Localisation" class="font-rock text-xl md:text-3xl">Localisation</Tabs.Trigger>
 			<Tabs.Trigger value="Restauration" class="font-rock text-xl md:text-3xl">Restauration</Tabs.Trigger>
 			<Tabs.Trigger value="Campings" class="font-rock text-xl md:text-3xl">Camping</Tabs.Trigger>
+			<Tabs.Trigger value="Eco-Festival" class="font-rock text-xl md:text-3xl">Eco-Festival</Tabs.Trigger>
 		</Tabs.List>
+
+		<Tabs.Content value="Horaire">
+			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<h1 class="font-rock text-2xl m-2">Horaire</h1>
+				<p class="text-justify m-2">Sur le site du festival, nos bénévoles de la restauration se feront un plaisir de vous servir façon snacking !</p>
+			</div>
+			<br />
+		</Tabs.Content>
+
 		<Tabs.Content value="Localisation">
 			<div class="flex md:flex-row flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
 				<iframe
@@ -37,6 +48,11 @@
 				<h1 class="font-rock text-2xl m-2">Parking</h1>
 				<p class="text-justify m-2">Dès les entrées de La Grigonnais, l'entrée du festival est indiquée par des panneaux de signalétique. Un grand parking est mis à disposition des festivaliers qui comptent repartir dans la soirée.</p>
 			</div>
+			<br />
+			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<h1 class="font-rock text-2xl m-2">Transport en commune</h1>
+				<p class="text-justify m-2">Bus aléop 309 et/ou Bus aléop 310</p>
+			</div>
 		</Tabs.Content>
 
 		<Tabs.Content value="Restauration">
@@ -51,6 +67,14 @@
 			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
 				<h1 class="font-rock text-2xl m-2">Camping a dispotition</h1>
 				<p class="text-justify m-2">Un camping est à disposition des festivaliers qui souhaitent profiter de leur soirée en toute sécurité. L'accès au terrain est indiqué par des panneaux de signalétique sur site.</p>
+			</div>
+			<br />
+		</Tabs.Content>
+
+		<Tabs.Content value="Eco-Festival">
+			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<h1 class="font-rock text-2xl m-2">On est Ecolo</h1>
+				<p class="text-justify m-2">On trie nos dechets</p>
 			</div>
 			<br />
 		</Tabs.Content>

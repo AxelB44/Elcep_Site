@@ -5,11 +5,7 @@
 	import Autoplay from 'embla-carousel-autoplay';
 	
 	import BanniereAccueil from '../lib/assets/BanniereAccueil.png';
-	import lPartenaires from '$lib/Partenaire.json'
-
-	let AvatarImg =
-		'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Wayfarers&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=Blonde&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Pale';
-
+	import lPartenaires from '$lib/Partenaire.json';
 	
 	const plugin = Autoplay({ delay: 3000, stopOnInteraction: true });
 </script>
@@ -27,7 +23,7 @@
 <!-- Programtation-->
 <section class="bg-gray-100 flex flex-col lg:flex-row items-center lg:items-stretch p-8">
 	<div class="w-1/2 flex flex-col items-center mb-8">
-		<h1 class="text-5xl font-rock text-nowrap">Vendredi 06/09</h1>
+		<h1 class="text-5xl font-rock text-nowrap">Vendredi 6 Sept</h1>
 		<br />
 		<div class="flex mt-auto mb-auto">
 			<div class="mr-6">
@@ -39,7 +35,7 @@
 		</div>
 	</div>
 	<div class="w-1/2 flex flex-col items-center">
-		<h1 class="text-5xl font-rock text-nowrap">Samedi 07/09</h1>
+		<h1 class="text-5xl font-rock text-nowrap">Samedi 7 Sept</h1>
 		<br />
 		<div class="flex flex-row justify-between items-center  lg:gap-16">
 			<div class="flex flex-col justify-between">

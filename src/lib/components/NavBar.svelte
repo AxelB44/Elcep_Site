@@ -50,13 +50,13 @@
 				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}>Programmation</a>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/Billetterie" class="font-rock text-2xl" on:click={() => togglesNav()}>Billetterie</a>
-			</li>
-			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Infos Pratiques</a>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
+			</li>
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
+				<a href="/Billetterie" class="font-rock text-2xl px-5 bg-Bandeau bg-no-repeat bg-[length:9rem] bg-center" on:click={() => togglesNav()}>Billetterie</a>
 			</li>
 		</ui>
 	</nav>
