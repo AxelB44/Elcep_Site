@@ -11,8 +11,12 @@
 </script>
 
 <svelte:head>
-	<title>El Cep</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>El Cep : Festival Rock à La Grigonnais (44) - 6 & 7 septembre 2024</title>
+	<meta name="description" content="Le festival El Cep est de retour pour sa 5ème édition et vous promet un week-end inoubliable placé sous le signe du rock ! Du vendredi 6 septembre au samedi 7 septembre 2024, le village de La Grigonnais va vibrer au rythme des guitares et des voix puissantes." />
+	<meta name="keywords" content="festival, rock, musique, La Grigonnais, El Cep, concert, programmation, billetterie, événement, France">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="robots" content="index, follow">
 </svelte:head>
 
 <!-- Baniere-->
