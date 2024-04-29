@@ -18,9 +18,18 @@
 			</li>
 		</ui>
 	</div>
-	<h3 class="text-white">Contact : <a href="mailto:communication.elcep@gmail.com" class="hover:text-red-500">communication.elcep@gmail.com</a></h3>
-	<h3 class="text-white">© Copyright par <a href="https://www.lagrigonnais.fr/les-saltimbanques/" target="_blank" class="hover:text-red-500">Les Saltimbanques</a></h3>
-
+	<h3 class="text-white">
+		Contact : <a href="mailto:communication.elcep@gmail.com" class="hover:text-red-500"
+			>communication.elcep@gmail.com</a
+		>
+	</h3>
+	<h3 class="text-white">
+		© Copyright par <a
+			href="https://www.lagrigonnais.fr/les-saltimbanques/"
+			target="_blank"
+			class="hover:text-red-500">Les Saltimbanques</a
+		>
+	</h3>
 </footer>
 
 <style>

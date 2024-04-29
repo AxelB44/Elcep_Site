@@ -1,7 +1,7 @@
 <script>
 	import Logo from '../assets/ELCEP_logo_festival.png';
 	import Icon from '@iconify/svelte';
-	import Vache from '$lib/assets/illus_vache_rock.png'
+	import Vache from '$lib/assets/illus_vache_rock.png';
 	let togglesmenu = '-translate-y-full';
 	let icon = 'ci:hamburger-lg';
 	let MenuBtn = false;
@@ -28,8 +28,9 @@
 	<nav
 		class="bg-neutral-900 text-white max-w-screen-2xl mx-auto font-poppins p-6 flex items-center justify-between"
 	>
-
-		<a href="/" class="flex gap-3"><img class="max-h-16" src={Vache} alt="" /><img class="max-h-16" src={Logo} alt="" /></a>
+		<a href="/" class="flex gap-3"
+			><img class="max-h-16" src={Vache} alt="" /><img class="max-h-16" src={Logo} alt="" /></a
+		>
 		<button
 			aria-label="toggle button"
 			aria-expanded={MenuBtn}
@@ -47,16 +48,24 @@
 				<a href="/" class="font-rock text-2xl" on:click={() => togglesNav()}>Accueil</a>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}>Programmation</a>
+				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}
+					>Programmation</a
+				>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}>Infos Pratiques</a>
+				<a href="/InfoPratique" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}
+					>Infos Pratiques</a
+				>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/Billetterie" class="font-rock text-2xl px-5 bg-Bandeau bg-no-repeat bg-[length:9rem] bg-center" on:click={() => togglesNav()}>Billetterie</a>
+				<a
+					href="/Billetterie"
+					class="font-rock text-2xl px-5 bg-Bandeau bg-no-repeat bg-[length:9rem] bg-center"
+					on:click={() => togglesNav()}>Billetterie</a
+				>
 			</li>
 		</ui>
 	</nav>
