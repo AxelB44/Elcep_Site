@@ -13,7 +13,7 @@
 
 <section class="flex justify-center items-center">
 	<Tabs.Root value="Horaire" class="w-11/12 md:w-5/6 flex flex-col m-4">
-		<Tabs.List class="mb-4">
+		<Tabs.List class="mb-4 h-auto block md:inline-flex" aria-orientation='horizontal'>
 			<Tabs.Trigger value="Horaire" class="font-rock text-xl md:text-3xl">Horaire</Tabs.Trigger>
 			<Tabs.Trigger value="Localisation" class="font-rock text-xl md:text-3xl">Localisation</Tabs.Trigger>
 			<Tabs.Trigger value="Restauration" class="font-rock text-xl md:text-3xl">Restauration</Tabs.Trigger>
