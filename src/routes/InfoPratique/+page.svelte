@@ -2,8 +2,9 @@
 	import Banniere from '../../lib/assets/Banniere.jpg';
 
 	import * as Tabs from '$lib/components/ui/tabs';
-	import Groupe from '../../lib/components/Groupe.svelte';
-	import ImgGroupe from '../../lib/assets/ELCEP_logo_festival.png';
+	import ImgRestauration from '$lib/assets/RESTAURATION.png';
+	import ImgCamping from '$lib/assets/CAMPING.png';
+
 </script>
 
 <section class="">
@@ -14,23 +15,22 @@
 	<Tabs.Root value="Horaire" class="w-11/12 md:w-5/6 flex flex-col m-4">
 		<Tabs.List class="mb-4">
 			<Tabs.Trigger value="Horaire" class="font-rock text-xl md:text-3xl">Horaire</Tabs.Trigger>
-			<Tabs.Trigger value="Localisation" class="font-rock text-xl md:text-3xl"
-				>Localisation</Tabs.Trigger
-			>
-			<Tabs.Trigger value="Restauration" class="font-rock text-xl md:text-3xl"
-				>Restauration</Tabs.Trigger
-			>
+			<Tabs.Trigger value="Localisation" class="font-rock text-xl md:text-3xl">Localisation</Tabs.Trigger>
+			<Tabs.Trigger value="Restauration" class="font-rock text-xl md:text-3xl">Restauration</Tabs.Trigger>
 			<Tabs.Trigger value="Campings" class="font-rock text-xl md:text-3xl">Camping</Tabs.Trigger>
-			<Tabs.Trigger value="Eco-Festival" class="font-rock text-xl md:text-3xl"
-				>Eco-Festival</Tabs.Trigger
-			>
+			<Tabs.Trigger value="Eco-Festival" class="font-rock text-xl md:text-3xl">Eco-Festival</Tabs.Trigger>
 		</Tabs.List>
 
 		<Tabs.Content value="Horaire">
 			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
-				<h1 class="font-rock text-2xl m-2">ENTREE DU FESTIVAL </h1>
-				<p class="text-justify m-1">Un contrôle des billets sera effectué à l'entrée du festival.</p>
-				<p class="text-justify m-1">Les portes du festival ouvrent le vendredi à 19h et le samedi à 17h. Les concerts commencent environ 1h après ces horaires.	</p>
+				<h1 class="font-rock text-2xl m-2">ENTREE DU FESTIVAL</h1>
+				<p class="text-justify m-1">
+					Un contrôle des billets sera effectué à l'entrée du festival.
+				</p>
+				<p class="text-justify m-1">
+					Les portes du festival ouvrent le vendredi à 19h et le samedi à 17h. Les concerts
+					commencent environ 1h après ces horaires.
+				</p>
 				<p class="text-justify m-1">Toute boisson extérieure est interdite sur site.</p>
 			</div>
 			<br />
@@ -56,7 +56,7 @@
 					</p>
 				</div>
 			</div>
-			<br />
+			<br />			
 			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
 				<h1 class="font-rock text-2xl m-2">Parking</h1>
 				<p class="text-justify m-2">
@@ -73,23 +73,29 @@
 		</Tabs.Content>
 
 		<Tabs.Content value="Restauration">
-			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
-				<h1 class="font-rock text-2xl m-2">Restauration sur place</h1>
-				<p class="text-justify m-2">
-					Sur le site du festival, nos bénévoles de la restauration se feront un plaisir de vous
-					servir façon snacking !
-				</p>
+			<div class="flex flex-col md:flex-row items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<img src={ImgRestauration} alt="Logo Restauration" class="bg-black w-2/5">
+				<div class="md:w-3/5">
+					<h1 class="font-rock text-2xl m-2">Restauration sur place</h1>
+					<p class="text-justify m-2">
+						Sur le site du festival, nos bénévoles de la restauration se feront un plaisir de vous
+						servir façon snacking !
+					</p>
+				</div>
 			</div>
 			<br />
 		</Tabs.Content>
 
 		<Tabs.Content value="Campings">
-			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
-				<h1 class="font-rock text-2xl m-2">Camping a dispotition</h1>
-				<p class="text-justify m-2">
-					Un camping est à disposition des festivaliers qui souhaitent profiter de leur soirée en
-					toute sécurité. L'accès au terrain est indiqué par des panneaux de signalétique sur site.
-				</p>
+			<div class="flex flex-col md:flex-row items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<img src={ImgCamping} alt="Logo Campings" class="bg-black w-2/5">
+				<div class="md:w-3/5">
+					<h1 class="font-rock text-2xl m-2">Camping a dispotition</h1>
+					<p class="text-justify m-2">
+						Un camping est à disposition des festivaliers qui souhaitent profiter de leur soirée en
+						toute sécurité. L'accès au terrain est indiqué par des panneaux de signalétique sur site.
+					</p>
+				</div>
 			</div>
 			<br />
 		</Tabs.Content>
