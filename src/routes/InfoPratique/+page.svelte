@@ -23,7 +23,6 @@
 			<Tabs.Trigger value="Zone de nuit" class="font-rock text-xl md:text-3xl">Zone de nuit</Tabs.Trigger>
 			<Tabs.Trigger value="Eco-Festival" class="font-rock text-xl md:text-3xl">Eco-Festival</Tabs.Trigger>
 			<Tabs.Trigger value="FAQ" class="font-rock text-xl md:text-3xl">FAQ</Tabs.Trigger>
-
 		</Tabs.List>
 
 		<Tabs.Content value="Localisation">
@@ -50,7 +49,7 @@
 			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
 				<h1 class="font-rock text-2xl m-2">Parking</h1>
 				<p class="text-justify m-2">
-					Au abords de La Grigonnais, des panneaux de signalisation vous guideront vers le parkings et l'entrée du festival. 
+					Aux abords de La Grigonnais, des panneaux de signalisation vous guideront vers le parking et l'entrée du festival. 
 					<br/>
 					Un grand parking est situé à proximité du site et est idéal pour ceux qui souhaitent repartir dans la soirée.
 				</p>
@@ -62,7 +61,7 @@
 			</div>
 		</Tabs.Content>
 
-				<Tabs.Content value="Sur place">
+		<Tabs.Content value="Sur place">
 			<div class="flex flex-col md:flex-row items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
 				<img src={ImgSurPlace} alt="Logo Restauration" class="w-2/5">
 				<div class="md:w-3/5">
@@ -73,7 +72,7 @@
 					<br>
 					Les portes du festival ouvrent le vendredi 6 septembre à 19h et le samedi 7 septembre à 17h. 
 					<br>
-					Les concerts commencent environ 1h après ces horaires.
+					Les concerts commencent environ 1h après l'ouverture des portes.
 				</p>
 				</div>
 			</div>
@@ -100,7 +99,7 @@
 				<div class="md:w-3/5">
 					<h1 class="font-rock text-2xl m-2">Zone de Nuit</h1>
 					<p class="text-justify m-2">
-						Une zone de nuit est à disposition des festivaliers qui souhaitent profiter de leur soirée en toute sécurité. L'accès au terrain est indiqué par des panneaux de signalétique depuis le parking
+						Une zone de nuit est à disposition des festivaliers qui souhaitent profiter de leur soirée en toute sécurité. L'accès au terrain est indiqué par des panneaux de signalétique depuis le parking.
 					</p>
 				</div>
 			</div>
