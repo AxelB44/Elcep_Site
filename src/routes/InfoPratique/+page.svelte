@@ -5,7 +5,7 @@
 	import ImgRestauration from '$lib/assets/RESTAURATION.png';
 	import ImgSurPlace from '$lib/assets/entrefest.jpg';
 	import ImgCamping from '$lib/assets/CAMPING.png';
-	import ImgEcoFest from '$lib/assets/Ecofest.jpg';
+	import ImgEcoFest from '$lib/assets/EcoFest.png';
 
 
 </script>
