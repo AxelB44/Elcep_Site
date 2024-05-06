@@ -41,7 +41,7 @@
 				></Avatar>
 			</div>
 			<div class="ml-6">
-				<Avatar AvatarImg="../Artiste/BoneShaker/avatar_boneshaker.jpg" Name="Boneskaker"></Avatar>
+				<Avatar AvatarImg="../Artiste/BoneShaker/avatar_boneshaker.jpg" Name="BoneShaker"></Avatar>
 			</div>
 		</div>
 	</div>
@@ -56,7 +56,7 @@
 				></Avatar>
 			</div>
 			<div class="flex flex-col justify-center">
-				<Avatar AvatarImg="../Artiste/BBMichels/BBMichelsAvatars.jpg" Name="BB michels"></Avatar>
+				<Avatar AvatarImg="../Artiste/BBMichels/BBMichelsAvatars.jpg" Name="Broken Back Michels"></Avatar>
 			</div>
 			<div class="flex flex-col justify-between">
 				<Avatar AvatarImg="../Artiste/JohnnyMontreuil/avatar_jm2.png" Name="Johnny Montreuil"
