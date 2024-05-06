@@ -3,6 +3,7 @@
 
 	import * as Tabs from '$lib/components/ui/tabs';
 	import ImgRestauration from '$lib/assets/RESTAURATION.png';
+	import ImgSurPlace from '$lib/assets/entrefest.jpg';
 	import ImgCamping from '$lib/assets/CAMPING.png';
 	import ImgEcoFest from '$lib/assets/Eco-fest.jpg';
 
@@ -62,17 +63,17 @@
 		</Tabs.Content>
 
 				<Tabs.Content value="Sur place">
-			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+			<div class="flex flex-col md:flex-row items-center justify-center bg-gray-100 rounded-md p-4 gap-8">
+				<img src={ImgSurPlace} alt="Logo Restauration" class="w-2/5">
+				<div class="md:w-3/5">
 				<h1 class="font-rock text-2xl m-2">ENTREE DU FESTIVAL</h1>
 				<p class="text-justify m-1">
 					Un contrôle des billets sera effectué à l’entrée du festival.
 					<br>
 					<br>
 					Les portes du festival ouvrent le vendredi 6 septembre à 19h et le samedi 7 septembre à 17h. Les concerts commencent environ 1h après ces horaires.
-					<br>
-					<br>
-					Attention : toute sortie est définitive.
 				</p>
+				</div>
 			</div>
 			<br />
 		</Tabs.Content>
