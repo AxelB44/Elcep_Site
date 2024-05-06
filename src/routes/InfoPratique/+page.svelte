@@ -71,7 +71,9 @@
 					Un contrôle des billets sera effectué à l’entrée du festival.
 					<br>
 					<br>
-					Les portes du festival ouvrent le vendredi 6 septembre à 19h et le samedi 7 septembre à 17h. Les concerts commencent environ 1h après ces horaires.
+					Les portes du festival ouvrent le vendredi 6 septembre à 19h et le samedi 7 septembre à 17h. 
+					<br>
+					Les concerts commencent environ 1h après ces horaires.
 				</p>
 				</div>
 			</div>
