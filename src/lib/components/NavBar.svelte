@@ -29,7 +29,7 @@
 		class="bg-neutral-900 text-white max-w-screen-2xl mx-auto font-poppins p-6 flex items-center justify-between"
 	>
 		<a href="/" class="flex gap-3"
-			><img class="max-h-16" src={Vache} alt="" /><img class="max-h-16" src={Logo} alt="" /></a
+			><img class="max-h-16" src={Logo} alt="" /></a
 		>
 		<button
 			aria-label="toggle button"
@@ -44,8 +44,12 @@
 			id="toggles-menu"
 			class="w-full absolute top-full left-0 lg:translate-y-full {togglesmenu} -z-10 text-white bg-neutral-900 flex flex-col items-center lg:static lg:z-10 lg:w-min lg:transform-none lg:border-none lg:flex-row"
 		>
-			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/" class="font-rock text-2xl" on:click={() => togglesNav()}>Accueil</a>
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-black">
+				<a
+					href="/Billetterie"
+					class="font-rock text-2xl px-5 bg-Bandeau bg-no-repeat bg-[length:9rem] bg-center"
+					on:click={() => togglesNav()}>Billetterie</a
+				>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}
@@ -60,13 +64,7 @@
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
 			</li>
-			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a
-					href="/Billetterie"
-					class="font-rock text-2xl px-5 bg-Bandeau bg-no-repeat bg-[length:9rem] bg-center"
-					on:click={() => togglesNav()}>Billetterie</a
-				>
-			</li>
+			
 		</ui>
 	</nav>
 </header>

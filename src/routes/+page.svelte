@@ -18,7 +18,7 @@
 	/>
 	<meta
 		name="keywords"
-		content="festival, rock, musique, La Grigonnais, El Cep, concert, programmation, billetterie, événement, France"
+		content="festival, rock, musique, La Grigonnais, El Cep,ElCep, concert, programmation, billetterie, événement, France"
 	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
@@ -37,7 +37,7 @@
 		<br />
 		<div class="flex mt-auto mb-auto">
 			<div class="mr-6">
-				<Avatar AvatarImg="../Artiste/OddBerris/ODDBERRIESAvatar.jpg" Name="The odd berries"
+				<Avatar AvatarImg="../Artiste/OddBerris/ODDBERRIESAvatar.jpg" Name="Odd berries"
 				></Avatar>
 			</div>
 			<div class="ml-6">
@@ -52,7 +52,7 @@
 			<div class="flex flex-col justify-between">
 				<Avatar AvatarImg="../Artiste/NobodysFault/avatar_nobody.jpg" Name="Nobody’s fault"
 				></Avatar>
-				<Avatar AvatarImg="../Artiste/AdyOneWomenband/adyowbAvatar.jpg" Name="Ady one women band"
+				<Avatar AvatarImg="../Artiste/AdyOneWomenband/adyowbAvatar.jpg" Name="Ady One Woman Band"
 				></Avatar>
 			</div>
 			<div class="flex flex-col justify-center">
