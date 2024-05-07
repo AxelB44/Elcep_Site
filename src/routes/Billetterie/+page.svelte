@@ -27,9 +27,10 @@
 			</ul>
 
 			<br />
-			<button
-				class="bg-neutral-900 hover:bg-red-500 rounded-full mt-auto ml-auto mr-auto p-4 font-rock text-3xl text-center text- text-white tracking-wider"
-				>Acheter</button
+			<a
+				class="bg-neutral-900 hover:bg-red-500 rounded-full mt-auto ml-auto mr-auto p-4 font-rock text-3xl text-center text- text-white tracking-wider shadow-xl"
+				href="https://billetterie.festik.net/festival-el-cep/product/pass-vendredi"
+				>Acheter</a
 			>
 		</div>
 		<div class="flex flex-col border rounded-xl w-5/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-4">
@@ -63,7 +64,8 @@
 					<h3><strong>Gratuit</strong></h3>
 				</li>
 				<div class="flex flex-col items-center">
-					<button class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-b p-4 font-rock text-3xl text-center text-white tracking-wider">Acheter</button>
+					<a class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-b p-4 font-rock text-3xl text-center text-white tracking-wider shadow-xl" 
+					href="https://billetterie.festik.net/festival-el-cep/product/pass-samedi">Acheter</a>
 				</div>
 				
 			</ul>
@@ -110,9 +112,10 @@
 				<h3><strong>20 €</strong></h3>
 			</li>
 		</ul>
-		<button
-			class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider"
-			>Acheter</button
+		<a
+			class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider shadow-xl"
+			href="https://billetterie.festik.net/festival-el-cep/product/pass-2-jours"
+			>Acheter</a
 		>
 	</div>
 </section>

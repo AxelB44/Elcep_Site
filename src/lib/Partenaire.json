@@ -1,7 +1,7 @@
 [
 	{ "Name": "ROSSI", "Image": "" },
 	{ "Name": "CREAOUEST", "Image": "" },
-	{ "Name": "Le Cocon de campagne", "Image": "" },
+	{ "Name": "Le Cocon de campagne", "Image": "gite_cocondecampagne.png" },
 	{ "Name": "Les Vergers de la grigonnais", "Image": "vergergriglogo.jpg" },
 	{ "Name": "Casar Design", "Image": "casardesign.jpg" },
 	{ "Name": "Coriolis", "Image": "Coriolis.jpg" },
