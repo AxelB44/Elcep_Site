@@ -41,7 +41,7 @@
 				></Avatar>
 			</div>
 			<div class="ml-6">
-				<Avatar AvatarImg="../Artiste/BoneShaker/avatar_boneshaker.jpg" Name="BoneShaker"></Avatar>
+				<Avatar AvatarImg="../Artiste/BoneShaker/avatar_boneshaker_v2.jpg" Name="BoneShaker"></Avatar>
 			</div>
 		</div>
 	</div>
