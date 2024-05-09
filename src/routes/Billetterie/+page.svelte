@@ -57,7 +57,7 @@
 						<h3>Tarif Réduit</h3>
 						<h4>(étudiant et demandeur d'emploi)</h4>
 					</div>
-					<h3 class="text-nowrap"><strong>17 €</strong></h3>
+					<h3 class="text-nowrap"><strong>15 €</strong></h3>
 				</li>
 				<li class="flex justify-between md:text-2xl">
 					<h3>Tarif - 12 ans</h3>
