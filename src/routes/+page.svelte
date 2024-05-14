@@ -7,6 +7,7 @@
 	import BanniereAccueil from '../lib/assets/BanniereAccueil.png';
 	import lPartenaires from '$lib/Partenaire.json';
 
+
 	const plugin = Autoplay({ delay: 3000, stopOnInteraction: true });
 </script>
 
