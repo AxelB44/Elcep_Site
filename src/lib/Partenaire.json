@@ -1,11 +1,12 @@
 [
 	{ "Name": "Revêtement de sol marché publique et tertiaire", "Image": "Rossi.jpg" },
-	{ "Name": "MAUNA", "Image": "" },
+	{ "Name": "Conseil en organisation et en communication ", "Image": "" },
+	{ "Name": "2A3E", "Image": "2a3e.jpg" },
 	{ "Name": "Love Room Piscine et hammam", "Image": "gite_cocondecampagne.png" },
-	{ "Name": "Vente direct", "Image": "vergergriglogo.jpg" },
+	{ "Name": "Vente Direct La Grigonnais", "Image": "vergergriglogo.jpg" },
 	{ "Name": "Confiez nous les plans de votre projet de vie", "Image": "casardesign.jpg" },
 	{ "Name": "Intercommunication la Grigonnais", "Image": "Coriolis.jpg" },
-	{ "Name": "ML echafaudage", "Image": "" },
+	{ "Name": "ML Échafaudage Services ", "Image": "Logo_ML.png" },
 	{ "Name": "Controle Technique Auto Nozeen", "Image": "Norisko.jpg" },
 	{ "Name": "Noémie SAFFRE Conseillère en immobilier", "Image": "iad.jpg" },
 	{ "Name": "Froid Service 44", "Image": "FroidService44.jpg" },
@@ -14,8 +15,13 @@
 	{ "Name": "Communauté de commune de nozay", "Image": "ComComNozay.jpg" },
 	{ "Name": "Mairie de La Grigonnais", "Image": "VilleLaGrigonnais.jpg" },
 	{ "Name": "Artisan Peintre & Décoration Nozay", "Image": "Logo-PENIGUEL-PEINTURE.png" },
-	{ "Name": "Credit agricole", "Image": "Crédit_Agricole.png" },
-	{ "Name": "ACAI", "Image": "" },
+	{ "Name": "Agence de Nozay", "Image": "Crédit_Agricole.png" },
+	{ "Name": "Artisans et Commerçant de la Grigonnais", "Image": "logo_ACAI.png" },
 	{ "Name": "Boulangerie Guitteny la Grigonnais", "Image": "" },
-	{ "Name": "SERBA Rezé", "Image": "SERBA.jpg" }
+	{ "Name": "Ingénierie du bâtiment et génie Civil", "Image": "SERBA.png" },
+	{ "Name": "Cossard", "Image": "maison-cossard-logo.png" },
+	{ "Name": "ATP Systeme", "Image": "" },
+	{ "Name": "ORA", "Image": "" },
+	{ "Name": "Menuiserie Anthony Etienne", "Image": "agenceur_logo.jpg" },
+	{ "Name": "Roucheu Couverture", "Image": "" }
 ]
