@@ -52,7 +52,7 @@
 				>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
-				<a href="/Programation" class="font-rock text-2xl" on:click={() => togglesNav()}
+				<a href="/Programmation" class="font-rock text-2xl" on:click={() => togglesNav()}
 					>Programmation</a
 				>
 			</li>
