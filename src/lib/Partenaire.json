@@ -1,6 +1,6 @@
 [
 	{ "Name": "Revêtement de sol marché publique et tertiaire", "Image": "Rossi.jpg" },
-	{ "Name": "Conseil en organisation et en communication ", "Image": "" },
+	{ "Name": "Conseil en organisation et en communication ", "Image": "MAUNA.png" },
 	{ "Name": "2A3E", "Image": "2a3e.jpg" },
 	{ "Name": "Love Room Piscine et hammam", "Image": "gite_cocondecampagne.png" },
 	{ "Name": "Vente Direct La Grigonnais", "Image": "vergergriglogo.jpg" },
@@ -23,8 +23,8 @@
 	{ "Name": "ATP Systeme", "Image": "ATP_System.png" },
 	{ "Name": "ORA", "Image": "" },
 	{ "Name": "Menuiserie Anthony Etienne", "Image": "agenceur_logo.jpg" },
-	{ "Name": "Roucheux Couverture", "Image": "" },
-	{ "Name": "Metal Resource", "Image": "Metal_carte_de_visite.png" },
-	{ "Name": "Au Bonheur des Yeux", "Image": "" },
-	{ "Name": "Bricomarché Nozay", "Image": "" }
+	{ "Name": "Roucheux Couverture", "Image": "roucheux couverture2.png" },
+	{ "Name": "Metal Resource", "Image": "Metal_logo.png" },
+	{ "Name": "Au Bonheur des Yeux", "Image": "aubonheurdesyeux_logo.jpg" },
+	{ "Name": "Bricomarché Nozay", "Image": "Bricomarché_logo.jpg" }
 ]
