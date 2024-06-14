@@ -160,16 +160,16 @@
 		<Tabs.Content value="FAQ">
 			<Accordion.Root>
 				<Accordion.Item value="item-1" class="bg-gray-100 rounded-md">
-					<Accordion.Trigger class="font-rock text-2xl m-2">COMMENT ACHETER DES BILLETS POUR LE FESTIVAL ?</Accordion.Trigger>
-					<Accordion.Content class="text-justify m-2">Soit sur internet, soit dans certains commerces de La Grigonnais. Rendez-vous sur notre <a
+					<Accordion.Trigger class="font-rock text-2xl m-2"> COMMENT ACHETER DES BILLETS POUR LE FESTIVAL ?</Accordion.Trigger>
+					<Accordion.Content class="text-justify m-2"> Soit sur internet, soit dans certains commerces de La Grigonnais. Rendez-vous sur notre <a
 						href="/Billetterie"
 						class="text-red-500 hover:text-black">billetterie</a
 					>.</Accordion.Content>
 				</Accordion.Item>
 				<br>
 				<Accordion.Item value="item-2" class="bg-gray-100 rounded-md">
-					<Accordion.Trigger class="font-rock text-2xl m-2">PUIS-JE ACHETER DES BILLETS LE JOUR DU FESTIVAL ?</Accordion.Trigger>
-					<Accordion.Content class="text-justify m-2">Dans le cas où le festival affiche complet, aucun ticket ne sera vendu sur place. Dans le cas contraire, des tickets seront en vente au guichet du festival.</Accordion.Content>
+					<Accordion.Trigger class="font-rock text-2xl m-2"> PUIS-JE ACHETER DES BILLETS LE JOUR DU FESTIVAL ?</Accordion.Trigger>
+					<Accordion.Content class="text-justify m-2"> Dans le cas où le festival affiche complet, aucun ticket ne sera vendu sur place. Dans le cas contraire, des tickets seront en vente au guichet du festival.</Accordion.Content>
 				</Accordion.Item>
 			</Accordion.Root>
 		</Tabs.Content>
