@@ -159,17 +159,146 @@
 
 		<Tabs.Content value="FAQ">
 			<Accordion.Root>
-				<Accordion.Item value="item-1" class="bg-gray-100 rounded-md">
-					<Accordion.Trigger class="font-rock text-2xl m-2"> COMMENT ACHETER DES BILLETS POUR LE FESTIVAL ?</Accordion.Trigger>
-					<Accordion.Content class="text-justify m-2"> Soit sur internet, soit dans certains commerces de La Grigonnais. Rendez-vous sur notre <a
-						href="/Billetterie"
-						class="text-red-500 hover:text-black">billetterie</a
-					>.</Accordion.Content>
+				<Accordion.Item value="item-1" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						COMMENT ACHETER DES BILLETS POUR LE FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Soit sur internet, soit dans certains commerces de La Grigonnais. Rendez-vous sur notre <a
+							href="/Billetterie"
+							class="text-red-500 hover:text-black">billetterie</a
+						>.</Accordion.Content
+					>
 				</Accordion.Item>
-				<br>
-				<Accordion.Item value="item-2" class="bg-gray-100 rounded-md">
-					<Accordion.Trigger class="font-rock text-2xl m-2"> PUIS-JE ACHETER DES BILLETS LE JOUR DU FESTIVAL ?</Accordion.Trigger>
-					<Accordion.Content class="text-justify m-2"> Dans le cas où le festival affiche complet, aucun ticket ne sera vendu sur place. Dans le cas contraire, des tickets seront en vente au guichet du festival.</Accordion.Content>
+				<br />
+				<Accordion.Item value="item-2" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						PUIS-JE ACHETER DES BILLETS LE JOUR DU FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Dans le cas où le festival affiche complet, aucun ticket ne sera vendu sur place. Dans
+						le cas contraire, des tickets seront en vente au guichet du festival.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-3" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2"
+						>EST-CE QUE LES BILLETS SONT NOMINATIFS ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2"
+						>Les billets ne sont pas nominatifs.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-4" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2"
+						>QUEL JUSTIFICATIF DOIS-JE APPORTER À L’ENTRÉE DU FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2"
+						>La carte d’identité est obligatoire pour vérifier si tu es majeur. <br /> La carte d’étudiant
+						et la carte de demandeur d’emploi te permettront d’avoir un tarif réduit.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-5" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2"
+						>Y A T’IL UN ACCÈS PMR ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2"
+						>L’accès est accessible avec des roues tout terrains. Tout sera mis en place pour vous
+						crée un accès.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-6" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2"
+						>PUIS-JE SORTIR DU SITE DU FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2"
+						>Les sorties seront autorisées avec une contremarque.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-7" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2"
+						>QUELS SONT LES OBJETS INTERDITS SUR LE FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2"
+						>
+						Sont strictement interdits sur le site du festival :
+						<br />
+						Substances illicites (drogues, même douces), objets dangereux (tranchants & contondants),
+						armes même factices, nourriture, feux d’artifice, boîtes de conserve et canettes, bouteilles
+						et objets en verre, chaises (même pliantes), pointeurs laser, mégaphones & talkies, appareils
+						de diffusion audio, animaux.
+						<br />
+						Il est interdit d’entrer avec de l’alcool sur le site du festival. Seules les gourdes à eau
+						sont acceptées. De même dans un souci de respect de l’environnement, nous vous demandons
+						de ne pas jeter vos mégots sur le sol.
+						<br/>
+						<br/>
+						Le RECAP :
+						<br/>
+						<br/>
+						<ul class="list-disc list-inside">
+							<li>Bouteilles en verre / métallique / d’alcool</li>
+							<li>Substances illicites</li>
+							<li>Objets contondants</li>
+							<li>Feux d’artifices</li>
+							<li>Porte-voix</li>
+							<li>Vélos / planches à roulettes / trottinette</li>
+							<li>Ballons</li>
+							<li>Pistolets à eau</li>
+							<li>Parasols</li>
+							<li>Glacières à flancs rigides</li>
+							<li>Drones</li>
+						</ul>
+					</Accordion.Content>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-8" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						QUELS SONT LES DIFFÉRENTS MOYENS DE PAIEMENTS SUR LE FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Il sera possible de régler sur le festival en espèces ou en CB.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-9" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						DES PROTECTIONS AUDITIVES SERONT-ELLES DISPONIBLES ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Oui, les protections auditives sont disponibles sur le stand protection Entraid'addict.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-10" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						EST-IL POSSIBLE DE PRENDRE DES PHOTOS SANS AVOIR DE PERMISSION PARTICULIÈRE ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Il est en effet possible de prendre des photos sans permission à condition de ne pas utiliser de matériel professionnel.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-11" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						LES ANIMAUX SONT-ILS AUTORISÉS DANS L’ENCEINTE DU FESTIVAL ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Non les animaux ne sont pas autorisés.</Accordion.Content
+					>
+				</Accordion.Item>
+				<br />
+				<Accordion.Item value="item-12" class="bg-gray-100 rounded-md px-8">
+					<Accordion.Trigger class="font-rock text-2xl m-2">
+						QUELS SONT LES MOYENS MIS À DISPOSITION POUR COLLECTER MES DÉCHETS ?</Accordion.Trigger
+					>
+					<Accordion.Content class="text-justify m-2">
+						Des poubelles de tri seront installées sur le site du festival ainsi que des cendriers seront à disposition. Le tri sera également guidé par vos valeurs et principes personnels.</Accordion.Content
+					>
 				</Accordion.Item>
 			</Accordion.Root>
 		</Tabs.Content>

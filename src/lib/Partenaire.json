@@ -20,8 +20,11 @@
 	{ "Name": "Boulangerie Guitteny la Grigonnais", "Image": "" },
 	{ "Name": "Ingénierie du bâtiment et génie Civil", "Image": "SERBA.png" },
 	{ "Name": "Cossard", "Image": "maison-cossard-logo.png" },
-	{ "Name": "ATP Systeme", "Image": "" },
+	{ "Name": "ATP Systeme", "Image": "ATP_System.png" },
 	{ "Name": "ORA", "Image": "" },
 	{ "Name": "Menuiserie Anthony Etienne", "Image": "agenceur_logo.jpg" },
-	{ "Name": "Roucheu Couverture", "Image": "" }
+	{ "Name": "Roucheux Couverture", "Image": "" },
+	{ "Name": "Metal Resource", "Image": "Metal_carte_de_visite.png" },
+	{ "Name": "Au Bonheur des Yeux", "Image": "" },
+	{ "Name": "Bricomarché Nozay", "Image": "" }
 ]
