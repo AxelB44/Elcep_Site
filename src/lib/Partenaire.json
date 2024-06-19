@@ -27,5 +27,7 @@
 	{ "Name": "Metal Resource", "Image": "Metal_logo.png" },
 	{ "Name": "Au Bonheur des Yeux", "Image": "aubonheurdesyeux_logo.jpg" },
 	{ "Name": "Bricomarché Nozay", "Image": "Bricomarché_logo.jpg" },
-	{ "Name": "wkP'UP", "Image": "wkPUB.png" }
+	{ "Name": "wkP'UP", "Image": "wkPUB.png" },
+	{ "Name": "Atelier Gourguenez", "Image": "AtelierGourguenez.png" },
+	{ "Name": "Atlantique Ouverture", "Image": "Atlantique Ouverture.png" }
 ]
