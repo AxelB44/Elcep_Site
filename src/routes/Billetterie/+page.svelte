@@ -29,8 +29,7 @@
 			<br />
 			<a
 				class="bg-neutral-900 hover:bg-red-500 rounded-full mt-auto ml-auto mr-auto p-4 font-rock text-3xl text-center text- text-white tracking-wider shadow-xl"
-				href="https://billetterie.festik.net/festival-el-cep/product/pass-vendredi"
-				>Acheter</a
+				href="https://billetterie.festik.net/festival-el-cep/product/pass-vendredi">Acheter</a
 			>
 		</div>
 		<div class="flex flex-col border rounded-xl w-5/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-4">
@@ -42,55 +41,58 @@
 
 			<Tabs.Root value="Prévente" class="flex flex-col mt-4">
 				<Tabs.List class="mb-4 h-auto" aria-orientation="horizontal">
-					<Tabs.Trigger value="Prévente" class="font-rock text-xl md:text-2xl">Prévente</Tabs.Trigger>
-					<Tabs.Trigger value="Sur place" class="font-rock text-xl md:text-2xl">Sur place</Tabs.Trigger>
+					<Tabs.Trigger value="Prévente" class="font-rock text-xl md:text-2xl"
+						>Prévente</Tabs.Trigger
+					>
+					<Tabs.Trigger value="Sur place" class="font-rock text-xl md:text-2xl"
+						>Sur place</Tabs.Trigger
+					>
 				</Tabs.List>
 
 				<Tabs.Content value="Prévente" class="w-full h-full">
-			<ul class="h-full w-full">
-				<li class="flex justify-between md:text-2xl">
-					<h3>Plein Tarif</h3>
-					<h3><strong>18 €</strong></h3>
-				</li>
-				<li class="flex justify-between md:text-2xl">
-					<div>
-						<h3>Tarif Réduit</h3>
-						<h4>(étudiant et demandeur d'emploi)</h4>
-					</div>
-					<h3 class="text-nowrap"><strong>15 €</strong></h3>
-				</li>
-				<li class="flex justify-between md:text-2xl">
-					<h3>Tarif - 12 ans</h3>
-					<h3><strong>Gratuit</strong></h3>
-				</li>
-				<div class="flex flex-col items-center">
-					<a class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-b p-4 font-rock text-3xl text-center text-white tracking-wider shadow-xl" 
-					href="https://billetterie.festik.net/festival-el-cep/product/pass-samedi">Acheter</a>
-				</div>
-				
-			</ul>
-
-			
+					<ul class="h-full w-full">
+						<li class="flex justify-between md:text-2xl">
+							<h3>Plein Tarif</h3>
+							<h3><strong>18 €</strong></h3>
+						</li>
+						<li class="flex justify-between md:text-2xl">
+							<div>
+								<h3>Tarif Réduit</h3>
+								<h4>(étudiant et demandeur d'emploi)</h4>
+							</div>
+							<h3 class="text-nowrap"><strong>15 €</strong></h3>
+						</li>
+						<li class="flex justify-between md:text-2xl">
+							<h3>Tarif - 12 ans</h3>
+							<h3><strong>Gratuit</strong></h3>
+						</li>
+						<div class="flex flex-col items-center">
+							<a
+								class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-b p-4 font-rock text-3xl text-center text-white tracking-wider shadow-xl"
+								href="https://billetterie.festik.net/festival-el-cep/product/pass-samedi">Acheter</a
+							>
+						</div>
+					</ul>
 				</Tabs.Content>
 
 				<Tabs.Content value="Sur place">
 					<ul class="h-full">
-				<li class="flex justify-between md:text-2xl">
-					<h3>Plein Tarif</h3>
-					<h3><strong>20 €</strong></h3>
-				</li>
-				<li class="flex justify-between md:text-2xl">
-					<div>
-						<h3>Tarif Réduit</h3>
-						<h4>(étudiant et demandeur d'emploi)</h4>
-					</div>
-					<h3 class="text-nowrap"><strong>17 €</strong></h3>
-				</li>
-				<li class="flex justify-between md:text-2xl">
-					<h3>Tarif - 12 ans</h3>
-					<h3><strong>Gratuit</strong></h3>
-				</li>
-			</ul>
+						<li class="flex justify-between md:text-2xl">
+							<h3>Plein Tarif</h3>
+							<h3><strong>20 €</strong></h3>
+						</li>
+						<li class="flex justify-between md:text-2xl">
+							<div>
+								<h3>Tarif Réduit</h3>
+								<h4>(étudiant et demandeur d'emploi)</h4>
+							</div>
+							<h3 class="text-nowrap"><strong>17 €</strong></h3>
+						</li>
+						<li class="flex justify-between md:text-2xl">
+							<h3>Tarif - 12 ans</h3>
+							<h3><strong>Gratuit</strong></h3>
+						</li>
+					</ul>
 				</Tabs.Content>
 			</Tabs.Root>
 		</div>
@@ -114,8 +116,34 @@
 		</ul>
 		<a
 			class="bg-neutral-900 hover:bg-red-500 rounded-full mt-8 m-auto p-4 font-rock text-3xl text-center text-white tracking-wider shadow-xl"
-			href="https://billetterie.festik.net/festival-el-cep/product/pass-2-jours"
-			>Acheter</a
+			href="https://billetterie.festik.net/festival-el-cep/product/pass-2-jours">Acheter</a
 		>
+	</div>
+</section>
+
+<section class="flex flex-col p-12 h-full">
+	<h1 class="text-center text-5xl font-rock mb-8">Merch</h1>
+	<div class="flex w-full h-full">
+
+		<!--
+		<iframe
+			title="Bouton Merch"
+			id="haWidget"
+			allowtransparency={true}
+			src="https://www.helloasso.com/associations/association-culturelle-les-saltimbanques-de-la-grigonnais/boutiques/vente-de-textiles-el-cep-2024/widget-bouton"
+			style="width: 100%; height: 70px; border: none;"
+		></iframe>
+	-->
+
+		<iframe
+			title="Bouton Merch"
+			id="haWidget"
+			allowtransparency={true}
+			scrolling="yes"
+			src="https://www.helloasso.com/associations/association-culturelle-les-saltimbanques-de-la-grigonnais/boutiques/vente-de-textiles-el-cep-2024/widget"
+			class=" w-full h-[1900px] border-none"
+			height="100%" width="100%"
+		></iframe>
+		
 	</div>
 </section>
