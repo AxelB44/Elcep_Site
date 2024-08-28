@@ -67,6 +67,11 @@
 				>
 			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
+				<a href="/Presse" class="font-rock text-2xl text-nowrap" on:click={() => togglesNav()}
+					>Presse</a
+				>
+			</li>
+			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Archives" class="font-rock text-2xl" on:click={() => togglesNav()}>Archives</a>
 			</li>
 			
