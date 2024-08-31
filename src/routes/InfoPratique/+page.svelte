@@ -4,8 +4,8 @@
 	import * as Accordion from '$lib/components/ui/accordion';
 	import * as Tabs from '$lib/components/ui/tabs';
 	import ImgRestauration from '$lib/assets/RESTAURATION.png';
-	import ImgSurPlace from '$lib/assets/entrefest.jpg';
-	import ImgCamping from '$lib/assets/CAMPING.png';
+	import ImgSurPlace from '$lib/assets/Sur_Place.jpg';
+	import ImgCamping from '$lib/assets/Zone_Nuit.jpg';
 	import ImgEcoFest from '$lib/assets/EcoFest.png';
 </script>
 

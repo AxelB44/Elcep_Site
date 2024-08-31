@@ -40,11 +40,19 @@
 			<br />
 			{/each}
 
-			<!-- <h1 class="font-rock text-3xl mb-4">2021</h1>
-			{#each Presses.filter((e) => e.Year == "2021") as Presse}
+			<h1 class="font-rock text-3xl mb-4">2019</h1>
+			{#each Presses.filter((e) => e.Year == "2019") as Presse}
 			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8 w-4/6">
 				<a class="font-rock text-2xl hover:underline" href={Presse.Url}>{Presse['Title ']}</a> 
 			</div>
 			<br />
-			{/each}-->
+			{/each}
+
+			<h1 class="font-rock text-3xl mb-4">2018</h1>
+			{#each Presses.filter((e) => e.Year == "2018") as Presse}
+			<div class="flex flex-col items-center justify-center bg-gray-100 rounded-md p-4 gap-8 w-4/6">
+				<a class="font-rock text-2xl hover:underline" href={Presse.Url}>{Presse['Title ']}</a> 
+			</div>
+			<br />
+			{/each}
 </section>
