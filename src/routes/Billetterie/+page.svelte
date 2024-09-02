@@ -1,6 +1,6 @@
 <script>
 	import * as Tabs from '$lib/components/ui/tabs';
-	import Banniere from '../../lib/assets/Sur_Place.jpg';
+	import Banniere from '../../lib/assets/BanniereBilleterie.png';
 </script>
 
 <!-- Baniere-->
