@@ -9,6 +9,7 @@
 </section>
 
 <section class="flex flex-col p-12">
+	
 	<h1 class="text-center text-5xl font-rock mb-8">Billetterie</h1>
 	<div class="flex md:flex-row flex-col justify-center items-center md:items-stretch md:gap-16">
 		<div class="flex flex-col border rounded-xl w-5/6 lg:w-2/6 bg-gray-100 border-gray-100 p-4 m-4">
