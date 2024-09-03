@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@iconify/svelte": "^4.0.2",
 		"bits-ui": "^0.21.7",
 		"clsx": "^2.1.0",
 		"embla-carousel-autoplay": "^8.0.2",
