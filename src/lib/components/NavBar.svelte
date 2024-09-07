@@ -51,6 +51,11 @@
 					on:click={() => togglesNav()}>Billetterie</a
 				>
 			</li>
+<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
+				<a href="/Boutique" class="font-rock text-2xl" on:click={() => togglesNav()}
+					>Boutique</a
+				>
+			</li>
 			<li class="py-4 lg:py-0 lg:mr-6 hover:text-red-500">
 				<a href="/Programmation" class="font-rock text-2xl" on:click={() => togglesNav()}
 					>Programmation</a
