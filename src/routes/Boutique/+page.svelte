@@ -29,7 +29,7 @@
 			id="haWidget"
 			allowtransparency={true}
 			scrolling="yes"
-			src="https://www.helloasso.com/associations/association-culturelle-les-saltimbanques-de-la-grigonnais/boutiques/vente-de-textiles-el-cep-2024/widget"
+			src="https://www.helloasso.com/associations/association-culturelle-les-saltimbanques-de-la-grigonnais/boutiques/vente-de-textiles-el-cep-2024-1/widget"
 			class=" w-full h-[1900px]"
 			height="100%" width="100%"
 		></iframe>
